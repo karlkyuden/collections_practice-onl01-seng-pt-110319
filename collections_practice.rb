@@ -27,7 +27,12 @@ def reverse_array(arrayOfIntegers)
 end
 
 def kesha_maker(arrayOfStrings)
-   puts arrayOfStrings[1]
+   newArrayStrings = []
+    arrayOfStrings.each do |word|
+      word[2] = "$"
+      newArrayStrings << word
+    end
+      newArrayStrings
 end
 
 
