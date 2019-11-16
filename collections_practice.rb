@@ -50,8 +50,6 @@ def add_s(arrayOfWords)
    if index != 1
      element << "s"
   }
-  end
-  
   arrayOfWords
 end
 
