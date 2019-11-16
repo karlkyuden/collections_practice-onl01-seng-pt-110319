@@ -51,7 +51,7 @@ def add_s(arrayOfWords)
      element << "s"
    end
   }
-  puts arrayOfWords
+  arrayOfWords
 end
 
 
