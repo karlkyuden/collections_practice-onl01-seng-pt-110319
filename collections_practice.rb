@@ -42,7 +42,7 @@ def find_a(arrayOfStrings)
 end
 
 def sum_array(arrayOfNumbers)
-  arrayOfNumbers.inject
+  arrayOfNumbers.inject(1) {|sum, n| sum += n }
 end
 
 
