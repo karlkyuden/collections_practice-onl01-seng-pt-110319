@@ -40,3 +40,10 @@ def find_a(arrayOfStrings)
     word.start_with?("a")
   end
 end
+
+
+
+
+
+
+
