@@ -45,7 +45,9 @@ def sum_array(arrayOfNumbers)
   arrayOfNumbers.inject() {|sum, n| sum += n }
 end
 
-
+def add_s(arrayOfWords)
+  pp arrayOfWords
+end
 
 
 
