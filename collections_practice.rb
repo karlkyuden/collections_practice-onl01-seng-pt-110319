@@ -46,7 +46,9 @@ def sum_array(arrayOfNumbers)
 end
 
 def add_s(arrayOfWords)
-  pp arrayOfWords
+  arrayOfWords.each_with_index.collect{ |element, index| 
+    puts element[index]
+  }
 end
 
 
