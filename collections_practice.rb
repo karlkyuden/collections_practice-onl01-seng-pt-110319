@@ -47,7 +47,7 @@ end
 
 def add_s(arrayOfWords)
   arrayOfWords.each_with_index.collect{ |element, index| 
-   puts element
+   puts element[index]
   }
 end
 
