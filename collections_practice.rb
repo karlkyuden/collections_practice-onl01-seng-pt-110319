@@ -27,4 +27,34 @@ def reverse_array(arrayOfIntegers)
 end
 
 def kesha_maker(arrayOfStrings)
+   newArrayStrings = []
+    arrayOfStrings.each do |word|
+      word[2] = "$"
+      newArrayStrings << word
+    end
+      newArrayStrings
 end
+
+def find_a(arrayOfStrings)
+  arrayOfStrings.select do |word|
+    word.start_with?("a")
+  end
+end
+
+def sum_array(arrayOfNumbers)
+  arrayOfNumbers.inject() {|sum, n| sum += n }
+end
+
+def add_s(arrayOfWords)
+  arrayOfWords.each_with_index.collect{ |element, index| 
+   if index != 1
+     element << "s"
+   end
+  }
+  arrayOfWords
+end
+
+
+
+
+
