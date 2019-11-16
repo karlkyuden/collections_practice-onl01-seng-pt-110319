@@ -35,12 +35,6 @@ def kesha_maker(arrayOfStrings)
       newArrayStrings
 end
 
-
-
-
-
-
-
 def find_a(arrayOfStrings)
   
 end
