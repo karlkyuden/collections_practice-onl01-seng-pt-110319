@@ -27,16 +27,7 @@ def reverse_array(arrayOfIntegers)
 end
 
 def kesha_maker(arrayOfStrings)
-    if block_given?
-    i = 0
-    while i < array.length
-      yield(array[i])
-      i+= 1
-    end
-    array
-  else
-    print "No block was given"
-  end
+   puts arrayOfStrings
 end
 
 
@@ -48,5 +39,3 @@ end
 def find_a(arrayOfStrings)
   
 end
-
-kesha_maker{ |word| puts word }
