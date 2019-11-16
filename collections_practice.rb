@@ -41,7 +41,9 @@ def find_a(arrayOfStrings)
   end
 end
 
-
+def sum_array(arrayOfNumbers)
+  
+end
 
 
 
