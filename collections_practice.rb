@@ -27,7 +27,7 @@ def reverse_array(arrayOfIntegers)
 end
 
 def kesha_maker(arrayOfStrings)
-   puts arrayOfStrings
+   puts arrayOfStrings[1]
 end
 
 
