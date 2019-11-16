@@ -47,8 +47,10 @@ end
 
 def add_s(arrayOfWords)
   arrayOfWords.each_with_index.collect{ |element, index| 
-   puts index
+   if index != 1
+     element << "s"
   }
+  
   arrayOfWords
 end
 
